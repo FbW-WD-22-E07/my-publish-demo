@@ -1,4 +1,3 @@
-node_modules/
-build/
-dev-serve/
+node_modules
+dev-serve
 .parcel-cache
