@@ -1,3 +1,26 @@
+# Notes about domains!
+
+- IP Addresses
+    - All computers that are online have one or two of these
+    - Address assigned to the computer
+    - Local or public
+    - 192.168.0.1
+    - 127.0.0.1 <-> localhost
+    - Router has internal and public IPs
+
+- Domain / DNS (Domain Name System)
+    - Human readable address for IP
+    - Network of servers; "address book" or database of domain name to IP mappings
+    - facebook.com <--> 82.91.201.2
+    - www.example.org
+    - .org == suffix, ending == TLD == Top Level Domain
+    - example.org == domain
+    - www == subdomain
+    - stuff.example.org; stuff is the subdomain
+
+    - example.org == this is the part that costs money
+    - Companies offer registration services
+
 # DCI Boilerplate sass + parcel
 
 An HTML CSS boilerplate with built-in sass support:
@@ -73,7 +96,7 @@ npm start
 
 ### Production
 
-Compile source code from **src** and create an optimized production bundle in **docs** folder ready for **deployment**.
+Compile source code from **src** and create an optimized production bundle in **dist** folder ready for **deployment**.
 
 ```
 npm run build
